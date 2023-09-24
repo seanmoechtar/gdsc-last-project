@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sean Visual</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">Sean Visual</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Work</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Sean Visual</div>
+      <div class="hamburger-menu">
+        <div class="ham-bar bar-top"></div>
+        <div class="ham-bar bar-mid"></div>
+        <div class="ham-bar bar-bottom"></div>
+      </div>
+      <div class="menu-links">
+        <li><a href="#home" onclick="toggleMenu()">Home</a></li>
+        <li><a href="#about" onclick="toggleMenu()">About</a></li>
+        <li><a href="#projects" onclick="toggleMenu()">Work</a></li>
+        <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic">
+        <img src="./assets/profile-pic.png" alt="Sean Visual profile picture" />
+      </div>
+      <div class="section_text">
+        <h1 class="section__text__h1">Hello. I'm Sean Moechtar.</h1>
+        <h1 class="section__text__h2">I love good work.</h1>
+        <div class="btn-container">
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            Contact Me
+          </button>
+        </div>
+        <div id="socials-container">
+          <img
+            src="./assets/linkedin_white.png"
+            alt="Linkedin Profile"
+            class="icon_link"
+            onclick="location.href='https://www.linkedin.com/in/sean-maximilliano-raffaele-moechtar-861453241/'"
+          />
+          <img
+            src="./assets/github_white.png"
+            alt="Github Profile"
+            class="icon_git"
+            onclick="location.href='https://github.com/seanmoechtar'"
+          />
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <div class="section-container">
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="./assets/experience_white.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <h3 class="about_h3">Experience</h3>
+              <p class="about_p">
+                4+ years <br />Video Editing & Motion Design
+              </p>
+            </div>
+            <div class="details-container">
+              <img
+                src="./assets/software_white.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3 class="about_h3">Software</h3>
+              <p class="about_p">
+                Proficient in <br />After Effects & Davinci Resolve
+              </p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p class="paragraph-about">
+              Greetings! I'm Sean, a dedicated physics undergraduate at the
+              renowned Bandung Institute of Technology, currently in my
+              sophomore year. My journey into physics has fueled my passion for
+              understanding the universe, particularly the complexities of
+              motion. This passion has led me into the world of motion design
+              and video editing. Proficient in Adobe After Effects and DaVinci
+              Resolve Studio, I craft compelling visual narratives that marry
+              creativity with precision. My work reflects my creativity,
+              attention to detail, and ability to communicate complex concepts
+              visually. My strong programming skills, developed through my
+              studies, enhance my problem-solving abilities in creative
+              projects. My background in physics brings analytical thinking to
+              my creative endeavors. Outside of academics and creativity, I'm a
+              passionate musician, adding depth to my work in motion design and
+              video editing.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="projects">
+      <p class="section__text__p1">Browse My Recent</p>
+      <h1 class="title">Projects</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/EidAdha.gif"
+                alt="Project 1"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">
+              Videografi LFM Eid Adha Animation
+            </h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://www.instagram.com/p/CuExgw1uCTo/'"
+              >
+                Live
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <h2 class="experience-sub-title project-title">
+              Typography Animation Ads
+            </h2>
+            <div class="article-container">
+              <img
+                src="./assets/AnimasiStill.gif"
+                alt="Project 3"
+                class="project-img"
+              />
+            </div>
+            <br />
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://itbdsti-my.sharepoint.com/:v:/g/personal/10222085_mahasiswa_itb_ac_id/Edvn8SJGgulGmVR7hcaOek0B3CqnzXWLJy6p-xDOZ5CCAA?e=fEeWta'"
+              >
+                Live
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/lost.gif"
+                alt="Project 2"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">
+              3D Render of Ocean in Blender
+            </h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://itbdsti-my.sharepoint.com/:v:/g/personal/10222085_mahasiswa_itb_ac_id/EU2wjKs-x1ZBnHKdDajK-5YBD4Y-PUcn14COHlQQwxdumw?e=Fk0iuz'"
+              >
+                Live
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="contact">
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./assets/email_white.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p>
+            <a href="mailto:seanmoechtar@gmail.com" class="contact-gmail"
+              >seanmoechtar@gmail.com</a
+            >
+          </p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/linkedin_white.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p>
+            <a
+              href="https://www.linkedin.com/in/sean-maximilliano-raffaele-moechtar-861453241/"
+              class="contact-linkedin"
+              >LinkedIn</a
+            >
+          </p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2023 Sean. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
